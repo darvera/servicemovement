@@ -6,6 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Client {
-    String idrefere;
+    String idrefer;
+
 
 }

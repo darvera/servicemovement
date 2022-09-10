@@ -13,4 +13,6 @@ public class Movement {
     private String idMovement;
     private String amount;
     private LocalDateTime createAt;
+    Client client;
+    Product product;
 }

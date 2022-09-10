@@ -1,4 +1,8 @@
 package com.nttdata.servicemovement.model.movementType;
 
-public class InputMovement {
+import com.nttdata.servicemovement.model.EstrategyForMovementType;
+import com.nttdata.servicemovement.model.Movement;
+
+public class InputMovement extends Movement implements EstrategyForMovementType {
+
 }
